@@ -1,0 +1,33 @@
+
+#container{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 50px;
+    background-color: rgb(188, 191, 193);
+}
+
+
+
+
+
+#Lists{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100px;
+    text-align:start;
+}
+
+
+#Lists div{
+    height: 250px;
+    width: 335px;
+    background: rgb(236, 232, 232);
+    margin: 20px;
+}
+
+h4.title{
+    text-align: center;
+}
+
