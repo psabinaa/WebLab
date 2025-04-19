@@ -1,0 +1,80 @@
+/* Base Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  rgb(147, 127, 234);
+}
+.navbar {
+  background-color:rgb(226, 221, 221);
+  overflow: hidden;
+  border-radius: 10px;
+  padding-top: 10px ;
+  margin-top: 15px;
+  display: flex;
+  gap: 200px;
+}
+.navbar a {
+  display: block;
+  color: rgb(14, 13, 13);
+  text-align: left;
+  padding: 14px 20px;
+  text-decoration: none;
+  margin: 0;
+  font-size: 20px;
+}
+.navbar a:hover {
+  background-color: #5910b9;
+}  /*for navigation bar*/
+
+
+/* Dropdown Styles services hover  */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: rgb(16, 15, 15);
+  background-color: inherit;
+  padding: 10px 25px;
+  font-family: inherit;
+}
+.dropdown-content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 200px;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(192, 187, 187);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.tri-up{
+  width: 0;
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black; 
+  
+}
+.tri-down {
+  width: 10px;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+}
