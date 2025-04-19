@@ -1,0 +1,48 @@
+
+margin: 0;
+padding: 0;
+box-sizing:1;
+ border-box::after; 
+
+h1{
+text-align: center; 
+}
+
+fieldset{
+width: 70%;
+margin: auto;
+padding: 40px; 
+}
+
+fieldset legend{    
+text-align: center;
+}
+
+div.form-group{ 
+padding: 20px;
+border-bottom: 1px solid black;
+}
+
+div.form-group label{
+color: black;
+width: 100px;
+display: inline-block;
+}
+div.form-group label{
+    color: black;
+    width: 100px;
+    display: inline-block;
+}
+
+div.form-group input,select,textarea{  
+    width: 80%;
+    padding: 5px;
+}
+
+div.form-group input[type=radio]{ 
+    width: 1%;
+}
+
+form-group btn{
+ width: 8px;
+}
