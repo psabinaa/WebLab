@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    /*padding: 0;*/
+}
+div{
+    width: 70%;
+    margin: 0;
+    height: 300px;
+  
+}
+body{
+    background-color: lightgray;
+ 
+}
+h1{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    width: 200px;
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+    padding: 10px;
+    height: 200px;
+    
+
+}
+#example{
+    float:left ;
+    width: 100%;
+    padding: 45px;
+    border: solid 2px rgb(134, 182, 230);
+    margin-left: 0;
+    margin-bottom: 0;
+    clear: left;
+    height:375px ;
+    color:black;
+    background-color: rgb(187, 211, 241);;
+}
