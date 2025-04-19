@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Marksheet Result Page</title>
+        <link rel="stylesheet" href="q23.css">
+
+      
+           
+        <script>
+    function mobnav(){
+        var a = document.getElementById("main-menu");
+        var open = document.getElementById("mob-nav-open");
+        var close = document.getElementById("mob-nav-close");
+        open.style.display ="none";
+        close.style.display ="block";
+        if(a.style.display === "block"){
+            a.style.display = "none";
+        }
+        else{
+        a.style.display = 'block';
+        }
+    }
+        // OPEN TOP MOBILE NAVIGATION TOGGLE
+    function mobnavclose(){
+        var a = document.getElementById("main-menu");
+        var open = document.getElementById("mob-nav-open");
+        var close = document.getElementById("mob-nav-close");
+        open.style.display = "";
+        close.style.display = "none";
+        a.style.display = "";
+    }
+        </script>
+    </head>
+    <body >
+    <div class="container">
+        <!-- TOP NAVIGATION BAR     -->
+        <div class="top-nav-bar" id="top-nav-bar">
+            <!-- WEBSITE NAME OR LOGO -->
+            <div class="web-name" id="web-name" title="website">
+               <a href="home">MARKSHEET RESULT</a> <br>
+               <a style="color: rgb(25, 9, 243); font-size: 10px;">marksheet result page</a> 
+            
+
+
+        <!-- Main Content -->
+        <div id="content">
+            <form action="get_marks"  id="search" style="font-size: 1.5vw;">
+              <label for="register_number">Register Number: </label>
+              <input id="register_number"
+              oninput="this.value=this.value.slice(0,this.maxLength)"
+              type="number" required name="mobile_number" maxlength="9">
+              <button id="submit" type="submit" >Get Marks</button>
+            </form>
+            <br><br>
+
+               
+               <table >
+                <tr >
+                    <th id="t"> Register Number </th>
+                    <td> 211704018 </td>
+                </tr>
+                <tr>
+                    <th id="t"> Name </th>
+                    <td> Sabina Parajuli </td>
+                </tr>
+                <tr>
+                    <th id="t"> Date Of Birth </th>
+                    <td> 05/01/2005 </td>
+                </tr>
+               </table>
+
+               <table>
+                <tr>
+                    <th> Subject  </th><br>
+                    <th> Code </th>
+                    <th>Marks</th>
+                    <th> Result </th>
+                </tr>
+
+                <tr>
+                    <td> WEB </td>
+                    <td> 064 </td>
+                    <td> 60 </td>
+                    <td> P </td>
+                </tr>
+                <tr>
+                    <td id="m"> DSA </td>
+                    <td id="m"> 060 </td>
+                    <td id="m"> 57 </td>
+                    <td id="m"> P </td>
+                </tr>
+                <tr>
+                    <td> SAD</td>
+                    <td> 051 </td>
+                    <td> 58 </td>
+                    <td> P </td>
+                </tr>
+                <tr>
+                    <td id="m"> Statistics </td>
+                    <td id="m"> 045 </td>
+                    <td id="m"> 62 </td>
+                    <td id="m"> P </td>
+                </tr>
+                <tr>
+                    <td > Java </td>
+                    <td > 045 </td>
+                    <td > 55 </td>
+                    <td > P </td>
+                </tr>
+               
+               </table>
+               <span>
+                <b> A-Absent | P-PASS | F-FAIL |</b>
+               </span>
+
+        </div>    
+    </div>
+
+    </body>
+    </html>
+
