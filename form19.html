@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="style19.css">
+</head>
+
+<body>
+  <div class="head">
+    <h1 class="head">Registration/Login Form</h1>
+
+    <div class="container">
+      <h3 class="class-title">Register Form:</h3>
+      <form action="#" method="post">
+
+        <div class="user-input box">
+          <label for="fullname"></label>
+          <input type="type" id="fullname" placeholder="Username">
+        </div>
+
+        <div class="user-input box">
+          <label for="Email"></label>
+          <input type="email" id="Email" placeholder="Email">
+
+
+        </div>
+        <div class="user-input box">
+          <label for="Password"></label>
+          <input type="password" id="password" placeholder="Password">
+          <br> <a>Please enter a valid email address</a>
+
+        </div>
+        <div class="user-input box">
+          <label for="Confirm Password"></label>
+          <input type="password" id="password" placeholder=" Confirm Password">
+          <br> Please enter a valid email address
+        </div>
+
+        <div class="gender " id="gender">
+          <label for="gender"></label>
+          <input type="radio" name="gender" value="m">Female
+          <input type="radio" name="gender" id="female" value="f">Male
+        </div>
+        <div class="form-group term" id="terms">
+          <input type="checkbox" id="terms" name="terms" required>
+          <label for="terms"> I accept all terms & condition <a href="term-and-condition.html"></a></label>
+          <div class="button">
+            <input type="submit" value="Register">
+          </div>
+        </div>
+    </div>
+    </form>
+  </div>
+  <div class="container2">
+  <div class="form-section login-section">
+    <h2>Login form :</h2>
+    <form>
+      <div class="form-group">
+        <label for="login-email"></label>
+        <input type="email" id="login-email" placeholder="Enter Your Email">
+      </div>
+      <div class="form-group">
+        <label for="login-password"></label>
+        <input type="password" id="login-password" placeholder="Password">
+      </div>
+      <div class="remember-group">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+      </div>
+      <button type="submit" class="login-button">LOGIN</button>
+    </form>
+  </div>
+  </div>
+
+</body>
+
+</html>

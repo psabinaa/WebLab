@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style sheet</title>
+
+
+</head>
+
+<body>
+    <h1>Css</h1>
+    CSS is a style sheet language that manages the layout and presentation of websites. It allows developers to style the elements<br>
+     and make a website interactive. This article will help you become familiar with CSS, its properties, and its different types
+    <h2>CSS types</h2>
+    <p>There are three types of CSS, namely inline CSS, internal CSS, and external CSS.</p>
+    <p>Cascading Style sheet types: inline, external and internal</p>
+  <summary><b>1. Inline CSS</b><br>
+    The inline CSS enables styling a particular HTML element .
+    It does not use selectors; instead, we need to add the style attribute to each HTML tag that requires styling.<br>
+     In general, inline CSS is not recommended since it requires every HTML tag to be styled separately. Thus, it becomes pretty challenging to maintain websites by using only the inline CSS.</summary>
+<br>Example
+<h1 style="color: orange;">Welcome </h1>
+<p style="color: black;">Step up and work hard</p>
+<b>2. Internal or Embedded CSS</b><br>
+Unlike inline CSS, internal or embedded CSS is used to style a single HTML page. We need to add the style attribute in the <head> section of a specific HTML page that requires styling.<br>
+     However, it is not ideal for styling multiple web pages as we need to add the style attribute on every web page.
+     <br>Example
+     <style>
+        h1 {color: purple;}
+       
+        </style>
+        </head>
+        <body>
+        <h1>Welcome</h1>
+        <p>Step up and Work hard</p>
+
+        <br>
+ <b>3. External CSS</b> <br>
+ <p>In external CSS, the CSS code is written externally in a file having the ‘.css’ extension. A CSS file needs to be linked to a specific web page that requires styling.<br>
+     It is important to notice that the external CSS makes it possible to keep the HTML and CSS code of a web page separated from each other. External CSS is the most effective way to style the complete website.</p>
+
+
+     <h1>Welcome</h1>
+     <p>Step up and Work hard</p>
+<style>
+     h1 {
+        color: black;
+        }
+        p {
+        color: rgb(0, 0, 0);
+        }
+    </style>
+</body>
+</html>
